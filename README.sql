@@ -56,3 +56,21 @@ SET check_function_bodies = false;
 SET xmloption = content;
 SET client_min_messages = warning;
 SET row_security = off;
+
+SET default_tablespace = '';
+
+SET default_table_access_method = heap;
+
+--
+-- Name: games; Type: TABLE; Schema: public; Owner: freecodecamp
+--
+
+CREATE TABLE public.games (
+    game_id integer NOT NULL,
+    year integer NOT NULL,
+    round character varying(500) NOT NULL,
+    winner_id integer NOT NULL,
+    opponent_id integer NOT NULL,
+    winner_goals integer NOT NULL,
+    opponent_goals integer NOT NULL
+);
