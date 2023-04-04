@@ -74,3 +74,18 @@ CREATE TABLE public.games (
     winner_goals integer NOT NULL,
     opponent_goals integer NOT NULL
 );
+
+ALTER TABLE public.games OWNER TO freecodecamp;
+
+--
+-- Name: games_game_id_seq; Type: SEQUENCE; Schema: public; Owner: freecodecamp
+--
+
+CREATE SEQUENCE public.games_game_id_seq
+    AS integer
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
