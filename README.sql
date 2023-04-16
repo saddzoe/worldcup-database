@@ -105,3 +105,18 @@ CREATE TABLE public.teams (
     team_id integer NOT NULL,
     name character varying(500) NOT NULL
 );
+
+
+ALTER TABLE public.teams OWNER TO freecodecamp;
+
+--
+-- Name: teams_team_id_seq; Type: SEQUENCE; Schema: public; Owner: freecodecamp
+--
+
+CREATE SEQUENCE public.teams_team_id_seq
+    AS integer
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
