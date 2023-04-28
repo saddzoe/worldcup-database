@@ -135,3 +135,15 @@ ALTER SEQUENCE public.teams_team_id_seq OWNED BY public.teams.team_id;
 --
 
 ALTER TABLE ONLY public.games ALTER COLUMN game_id SET DEFAULT nextval('public.games_game_id_seq'::regclass);
+
+--
+-- Name: teams team_id; Type: DEFAULT; Schema: public; Owner: freecodecamp
+--
+
+ALTER TABLE ONLY public.teams ALTER COLUMN team_id SET DEFAULT nextval('public.teams_team_id_seq'::regclass);
+
+
+--
+-- Data for Name: games; Type: TABLE DATA; Schema: public; Owner: freecodecamp
+--
+
