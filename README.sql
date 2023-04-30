@@ -147,3 +147,9 @@ ALTER TABLE ONLY public.teams ALTER COLUMN team_id SET DEFAULT nextval('public.t
 -- Data for Name: games; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
+INSERT INTO public.games VALUES (33, 2018, 'Final', 637, 638, 4, 2);
+INSERT INTO public.games VALUES (34, 2018, 'Third Place', 639, 640, 2, 0);
+INSERT INTO public.games VALUES (35, 2018, 'Semi-Final', 638, 640, 2, 1);
+INSERT INTO public.games VALUES (36, 2018, 'Semi-Final', 637, 639, 1, 0);
+INSERT INTO public.games VALUES (37, 2018, 'Quarter-Final', 638, 643, 3, 2);
+INSERT INTO public.games VALUES (38, 2018, 'Quarter-Final', 640, 644, 2, 0);
