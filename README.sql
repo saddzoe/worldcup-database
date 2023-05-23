@@ -173,3 +173,6 @@ INSERT INTO public.games VALUES (55, 2014, 'Quarter-Final', 645, 647, 2, 1);
 INSERT INTO public.games VALUES (56, 2014, 'Quarter-Final', 655, 637, 1, 0);
 INSERT INTO public.games VALUES (57, 2014, 'Eighth-Final', 645, 665, 2, 1);
 INSERT INTO public.games VALUES (58, 2014, 'Eighth-Final', 647, 646, 2, 0);
+INSERT INTO public.games VALUES (59, 2014, 'Eighth-Final', 637, 667, 2, 0);
+INSERT INTO public.games VALUES (60, 2014, 'Eighth-Final', 655, 668, 2, 1);
+INSERT INTO public.games VALUES (61, 2014, 'Eighth-Final', 657, 650, 2, 1);
