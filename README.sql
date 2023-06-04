@@ -179,3 +179,13 @@ INSERT INTO public.games VALUES (61, 2014, 'Eighth-Final', 657, 650, 2, 1);
 INSERT INTO public.games VALUES (62, 2014, 'Eighth-Final', 661, 670, 2, 1);
 INSERT INTO public.games VALUES (63, 2014, 'Eighth-Final', 654, 648, 1, 0);
 INSERT INTO public.games VALUES (64, 2014, 'Eighth-Final', 639, 672, 2, 1);
+
+--
+-- Data for Name: teams; Type: TABLE DATA; Schema: public; Owner: freecodecamp
+--
+
+INSERT INTO public.teams VALUES (637, 'France');
+INSERT INTO public.teams VALUES (638, 'Croatia');
+INSERT INTO public.teams VALUES (639, 'Belgium');
+INSERT INTO public.teams VALUES (640, 'England');
+INSERT INTO public.teams VALUES (643, 'Russia');
