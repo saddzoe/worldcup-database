@@ -195,3 +195,7 @@ INSERT INTO public.teams VALUES (646, 'Uruguay');
 INSERT INTO public.teams VALUES (647, 'Colombia');
 INSERT INTO public.teams VALUES (648, 'Switzerland');
 INSERT INTO public.teams VALUES (649, 'Japan');
+INSERT INTO public.teams VALUES (650, 'Mexico');
+INSERT INTO public.teams VALUES (651, 'Denmark');
+INSERT INTO public.teams VALUES (652, 'Spain');
+INSERT INTO public.teams VALUES (653, 'Portugal');
