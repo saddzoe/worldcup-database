@@ -203,3 +203,6 @@ INSERT INTO public.teams VALUES (654, 'Argentina');
 INSERT INTO public.teams VALUES (655, 'Germany');
 INSERT INTO public.teams VALUES (657, 'Netherlands');
 INSERT INTO public.teams VALUES (661, 'Costa Rica');
+INSERT INTO public.teams VALUES (665, 'Chile');
+INSERT INTO public.teams VALUES (667, 'Nigeria');
+INSERT INTO public.teams VALUES (668, 'Algeria');
