@@ -214,3 +214,9 @@ INSERT INTO public.teams VALUES (672, 'United States');
 --
 
 SELECT pg_catalog.setval('public.games_game_id_seq', 64, true);
+
+--
+-- Name: teams_team_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
+--
+
+SELECT pg_catalog.setval('public.teams_team_id_seq', 672, true);
