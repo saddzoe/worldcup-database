@@ -220,3 +220,10 @@ SELECT pg_catalog.setval('public.games_game_id_seq', 64, true);
 --
 
 SELECT pg_catalog.setval('public.teams_team_id_seq', 672, true);
+
+--
+-- Name: games games_pkey; Type: CONSTRAINT; Schema: public; Owner: freecodecamp
+--
+
+ALTER TABLE ONLY public.games
+    ADD CONSTRAINT games_pkey PRIMARY KEY (game_id);
