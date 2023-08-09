@@ -236,3 +236,10 @@ ALTER TABLE ONLY public.teams
     ADD CONSTRAINT teams_name_key UNIQUE (name);
 
 
+-- Name: teams teams_pkey; Type: CONSTRAINT; Schema: public; Owner: freecodecamp
+--
+
+ALTER TABLE ONLY public.teams
+    ADD CONSTRAINT teams_pkey PRIMARY KEY (team_id);
+
+
